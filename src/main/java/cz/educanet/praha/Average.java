@@ -1,5 +1,3 @@
-
- 
 package cz.educanet.praha;
 
 import java.util.Scanner;
