@@ -22,3 +22,4 @@ public class Average {
         System.out.println(average(new Scanner(System.in)));
     }
 }
+ 
