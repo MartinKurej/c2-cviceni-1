@@ -15,6 +15,6 @@ public class Average {
     }
 
     public static void main(String[] args) {
-        System.out.println(average(new Scanner(System.in)));
+        System.out.println(prumer(new Scanner(System.in)));
     }
 }
