@@ -4,16 +4,14 @@ import java.util.Scanner;
 
 public class Average {
 
-    public static double average(Scanner scanner) {
-        double sum = 0;
-        double average = 0;
-        int i = 0;
-        while (scanner.hasNext()) {
-            sum += scanner.nextInt();
-            i++;
+    public static double average(Scanner sc) {
+        int prumer = 0;
+        int pocet = 0;
+        while (sc.hasNext()) {
+            prumer += sc.nextInt();
+            pocet++;
         }
-        average = average + sum/i;
-        return average;
+        return (double) prumer/pocet;
     }
 
     public static void main(String[] args) {
